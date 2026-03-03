@@ -7,7 +7,7 @@ function Contato() {
       <div className="contato-container">
         <h2>Contato</h2>
         <p>
-          Curtiu meus projetos? Estou aberto a novas oportunidades e desafios.
+          Estou aberto a novas oportunidades e desafios, entre em contato
         </p>
 
         <div className="contato-botoes">

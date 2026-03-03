@@ -22,7 +22,7 @@ const projetos = [
     titulo: 'Portfólio Pessoal',
     descricao: 'Portfólio desenvolvido em React com layout responsivo e mobile first.',
     tecnologias: ['React', 'CSS'],
-    github: 'https://github.com/seuusuario/portfolio',
+    github: 'https://github.com/martins-kayk77/portfolio-kaike',
     demo: '#'
   }
   
