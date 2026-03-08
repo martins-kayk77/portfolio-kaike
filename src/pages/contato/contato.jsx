@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
-import "./Contato.css"
+import "./contato.css"
 
 function Contato() {
   return (
