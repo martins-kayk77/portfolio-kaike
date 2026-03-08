@@ -1,4 +1,5 @@
 import './home.css';
+import kaikeFoto from '../../assets/kaikeFoto.jpeg';
 
 function Index() {
   return (
@@ -23,7 +24,7 @@ function Index() {
       </div>
 
       <div className="hero-img">
-        <img src="src/assets/kaikeFoto.jpeg" alt="Kaike Martins"/>
+        <img src={kaikeFoto} alt="Kaike Martins"/>
       </div>
     </section>
     </>

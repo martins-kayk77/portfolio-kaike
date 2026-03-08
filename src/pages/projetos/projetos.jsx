@@ -12,7 +12,7 @@ const projetos = [
   {
     id: 2,
     titulo: 'Juri Solutions',
-    descricao: 'Softwar Júridico com CRUD, Esta aplição foi com intuito de otimizar a vida de um clinte, no qual tem como objetivo administrar processos judiciais',
+    descricao: 'Software Jurídico com CRUD. Esta aplicação foi desenvolvida com o intuito de otimizar a vida de um cliente, tendo como objetivo administrar processos judiciais.',    
     tecnologias: ['Flutter', 'Firebase'],
     github: 'https://github.com/martins-kayk77/Juri-Solutions',
     demo: '#'
