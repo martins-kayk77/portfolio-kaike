@@ -1,4 +1,4 @@
-import './Projetos.css'
+import './projetos.css'
 
 const projetos = [
   {
