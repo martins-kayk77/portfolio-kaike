@@ -25,7 +25,7 @@ function Index() {
       </div>
 
       <div className="hero-img">
-        
+        <img src="img/KaikeIMG.jpeg" alt="Kaike Martins"/>
       </div>
     </section>
     </>
