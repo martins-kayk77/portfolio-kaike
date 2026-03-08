@@ -15,9 +15,15 @@ function Index() {
 
         <div className="home-buttons">
           <a href="#sobre" className="btn primeiro">Sobre</a>
-          <a href="#projetos" className="btn segundo">Ver projetos</a>
-          <a href="#contato" className="btn terceiro">Contato</a>
+          <a href="#habilidades" className="btn segundo">Habilidades</a>
+          <a href="#projetos" className="btn terceiro">Ver projetos</a>
+          <a href="#contato" className="btn quarto">Contato</a>
+          
         </div>
+      </div>
+
+      <div className="hero-img">
+        <img src="src/assets/kaikeFoto.jpeg" alt="Kaike Martins"/>
       </div>
     </section>
     </>

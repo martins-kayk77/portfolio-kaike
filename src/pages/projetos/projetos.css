@@ -16,6 +16,13 @@
   gap: 1.5rem;
 }
 
+.projeto-card:hover{
+  transform: translateY(-6px);
+transition: all 0.3s ease;
+border: 2px solid #6c63ff;
+box-shadow: 0 0 20px rgba(79,70,229,0.4);
+}
+
 .projeto-card {
   background: #1a1a24;
   padding: 1.5rem;
