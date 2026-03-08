@@ -1,5 +1,5 @@
 import './home.css';
-import foto from "../../assets/KaikeFoto.jpeg";
+import foto from "src/assets/KaikeFoto.jpeg";
 
 function Index() {
   return (
