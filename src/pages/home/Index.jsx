@@ -1,7 +1,6 @@
 import './home.css';
 
 
-
 function Index() {
   return (
     <>
