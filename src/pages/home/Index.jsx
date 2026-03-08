@@ -1,5 +1,5 @@
 import './home.css';
-import kaikeFoto from '../../assets/kaikeFoto.jpeg';
+import kaikeFoto from 'docs/assets/KaikeFoto.jpg';
 
 function Index() {
   return (
