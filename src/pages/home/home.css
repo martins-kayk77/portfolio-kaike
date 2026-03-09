@@ -34,7 +34,6 @@
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 
@@ -88,8 +87,6 @@ box-shadow: 0 0 20px rgba(79,70,229,0.4);
 .home h2{
   color: rgb(143, 162, 177);
 }
-
-
 
 
 

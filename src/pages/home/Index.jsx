@@ -15,15 +15,18 @@ function Index() {
         </p>
 
         <div className="home-buttons">
-          <a href="#sobre" className="btn primeiro">Sobre</a>
+          <a href="#sobre" className="btn primeiro">Sobre mim</a>
           <a href="#habilidades" className="btn segundo">Habilidades</a>
-          <a href="#projetos" className="btn terceiro">Ver projetos</a>
+          <a href="#projetos" className="btn terceiro">Ver Projetos</a>
+          <a href="#experiencia" className="btn quarto">Minha Jornada</a>
           <a href="#contato" className="btn quarto">Contato</a>
           
         </div>
       </div>
 
-      
+      <div className="hero-img">
+        
+      </div>
     </section>
     </>
   )

@@ -1,0 +1,145 @@
+.experiencia{
+  padding: 100px 20px;
+  background: #0f0f14;
+  color: white;
+}
+
+/* título */
+
+.titulo{
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 80px;
+}
+
+/* container da timeline */
+
+.timeline{
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* linha central */
+
+.timeline::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #7c6cff;
+  transform: translateX(-50%);
+}
+
+/* item */
+
+.timeline-item{
+  position: relative;
+  width: 50%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* esquerda */
+
+.timeline-item:nth-child(odd){
+  left: 0;
+  text-align: right;
+}
+
+/* direita */
+
+.timeline-item:nth-child(even){
+  left: 50%;
+}
+
+/* bolinha */
+
+.timeline-dot{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background: #7c6cff;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(124,108,255,0.7);
+}
+
+.timeline-item:nth-child(odd) .timeline-dot{
+  right: -7px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot{
+  left: -7px;
+}
+
+/* card */
+
+.timeline-content{
+  background: #1a1a22;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 420px;
+}
+
+/* textos */
+
+.timeline-content h3{
+  color: #7c6cff;
+  margin-bottom: 8px;
+}
+
+.timeline-content h4{
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.timeline-content p{
+  font-size: 0.9rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* hover profissional */
+
+.timeline-content{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(124,108,255,0.2);
+}
+
+
+/* mobile */
+@media (max-width: 768px){
+
+.timeline::before{
+  left: 20px;
+}
+
+.timeline-item{
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.timeline-item:nth-child(odd),
+.timeline-item:nth-child(even){
+  left: 0;
+}
+
+.timeline-dot{
+  left: 13px !important;
+}
+
+.timeline-content{
+  max-width: 100%;
+}
+
+}
