@@ -7,7 +7,7 @@ const projetos = [
     descricao: 'Catálogo online de bolos com foco em UI simples e integração com WhatsApp.',
     tecnologias: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/martins-kayk77/roseBolos',
-    demo: '#'
+    demo: 'https://martins-kayk77.github.io/roseBolos/'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const projetos = [
     id: 3,
     titulo: 'Portfólio Pessoal',
     descricao: 'Portfólio desenvolvido em React com layout responsivo e mobile first.',
-    tecnologias: ['React', 'CSS'],
+    tecnologias: ['React'],
     github: 'https://github.com/martins-kayk77/portfolio-kaike',
     demo: '#'
   }

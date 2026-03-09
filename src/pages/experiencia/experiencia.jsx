@@ -34,6 +34,19 @@ function Experiencia() {
           </div>
         </div>
 
+        <div className="timeline-item">
+          <div className="timeline-dot"></div>
+          <div className="timeline-content">
+            <h3>2025</h3>
+            <h4>Desenvolvimento do TCC</h4>
+            <p>
+                Durante o último ano do curso técnico, desenvolvi meu Trabalho de Conclusão 
+                de Curso com foco na otimização de processos jurídicos. 
+                Foi meu primeiro projeto completo utilizando operações CRUD, 
+                aplicando conceitos de desenvolvimento e estruturação de sistemas.
+            </p>
+          </div>
+        </div>
 
         <div className="timeline-item">
           <div className="timeline-dot"></div>
