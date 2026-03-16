@@ -11,7 +11,7 @@ function Index() {
 
         <p>
           Técnico em Desenvolvimento de Sistemas, cursando ADS, com foco em
-          criação de interfaces modernas.
+          desenvolvimento front-end.
         </p>
 
         <div className="home-buttons">
@@ -24,8 +24,8 @@ function Index() {
         </div>
       </div>
 
-      <div className="hero-img">
-        <img src={foto} alt="Kaike Martins" />
+      <div className="hero-img">        
+        <img src={foto} alt="Kaike Martins" />        
       </div>
     </section>
     </>

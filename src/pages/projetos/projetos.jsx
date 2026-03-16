@@ -15,7 +15,7 @@ const projetos = [
     descricao: 'Software Jurídico com CRUD. Esta aplicação foi desenvolvida com o intuito de otimizar a vida de um cliente, tendo como objetivo administrar processos judiciais.',    
     tecnologias: ['Flutter', 'Firebase'],
     github: 'https://github.com/martins-kayk77/Juri-Solutions',
-    demo: '#'
+    demo: 'https://www.youtube.com/watch?v=evRKqC1WLQg'
   },
   {
     id: 3,
