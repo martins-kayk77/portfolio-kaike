@@ -1,5 +1,6 @@
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaEnvelope, FaFile, FaFileAlt  } from "react-icons/fa"
 import "./contato.css"
+import curriculo from '../../assets/curriculoKaikeMartins.pdf'
 
 function Contato() {
   return (
@@ -18,6 +19,15 @@ function Contato() {
 
           ><FaEnvelope className="icone" /> 
              Enviar Email
+          </a>
+
+          <a 
+            href={curriculo}
+            target="_blank"
+            className="botao-contato"
+
+          ><FaFileAlt className="icone" /> 
+             Currículo
           </a>
 
           <a 
