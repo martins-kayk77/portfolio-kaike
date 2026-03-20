@@ -3,20 +3,21 @@ import './projetos.css'
 const projetos = [
   {
     id: 1,
-    titulo: 'Rose Bolos – Catálogo',
-    descricao: 'Catálogo online de bolos com foco em UI simples e integração com WhatsApp.',
-    tecnologias: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/martins-kayk77/roseBolos',
-    demo: 'https://martins-kayk77.github.io/roseBolos/'
-  },
-  {
-    id: 2,
     titulo: 'Juri Solutions',
     descricao: 'Software Jurídico com CRUD. Esta aplicação foi desenvolvida com o intuito de otimizar a vida de um cliente, tendo como objetivo administrar processos judiciais.',    
     tecnologias: ['Flutter', 'Firebase'],
     github: 'https://github.com/martins-kayk77/Juri-Solutions',
     demo: 'https://www.youtube.com/watch?v=evRKqC1WLQg'
   },
+  {
+    id: 2,
+    titulo: 'Rose Bolos – Catálogo',
+    descricao: 'Catálogo online de bolos com foco em UI simples e integração com WhatsApp.',
+    tecnologias: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/martins-kayk77/roseBolos',
+    demo: 'https://martins-kayk77.github.io/roseBolos/'
+  },
+  
   {
     id: 3,
     titulo: 'Portfólio Pessoal',
