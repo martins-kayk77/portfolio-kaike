@@ -26,6 +26,7 @@ function Habilidades() {
             <h2>Back-end</h2>
             <div className="tech-grid">
                 <div className="tech"><FaNodeJs color="#0f0f14"/><span>Node.js</span></div>
+                <div className="tech"><FaPython color="#0f0f14"/><span>Python</span></div>
             </div>
 
         </div>
