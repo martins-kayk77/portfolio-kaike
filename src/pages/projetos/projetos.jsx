@@ -13,7 +13,7 @@ const projetos = [
   {
     id: 2,
     titulo: 'Livraria Cultura',
-    descricao: 'Web site para gerenciamento de acervo de uma livraria.',
+    descricao: 'Web site para gerenciamento de uma livraria, com login, cadastro de livros, autores e editoras, além de controle de usuários e painel administrativo.',
     tecnologias: ['React', 'Node + Express', 'MySQL'],
     github: 'https://github.com/martins-kayk77/LivrariaCulturaBackend',
     demo: 'https://livrariacultura.vercel.app/'
