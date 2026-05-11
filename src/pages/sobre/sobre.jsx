@@ -8,7 +8,7 @@ export default function Sobre() {
 
         <p>
           Meu nome é Kaike, tenho 20 anos e moro na zona sul de São Paulo. Sou Técnico em Desenvolvimento de Sistemas pela ETEC e estudante
-           de Análise e Desenvolvimento de Sistemas na UniFECAF, com foco em desenvolvimento Front-End.
+           de Análise e Desenvolvimento de Sistemas na UniFECAF.
         </p>
 
         <p>

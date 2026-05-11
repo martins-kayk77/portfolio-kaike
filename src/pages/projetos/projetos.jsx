@@ -9,8 +9,18 @@ const projetos = [
     github: 'https://github.com/martins-kayk77/Juri-Solutions',
     demo: 'https://www.youtube.com/watch?v=evRKqC1WLQg'
   },
+
   {
     id: 2,
+    titulo: 'Livraria Cultura',
+    descricao: 'Web site para gerenciamento de acervo de uma livraria.',
+    tecnologias: ['React', 'Node + Express', 'MySQL'],
+    github: 'https://github.com/martins-kayk77/LivrariaCulturaBackend',
+    demo: 'https://livrariacultura.vercel.app/'
+  },
+
+  {
+    id: 3,
     titulo: 'Rose Bolos – Catálogo',
     descricao: 'Catálogo online de bolos com foco em UI simples e integração com WhatsApp.',
     tecnologias: ['HTML', 'CSS', 'JavaScript'],
@@ -18,8 +28,10 @@ const projetos = [
     demo: 'https://martins-kayk77.github.io/roseBolos/'
   },
   
+  
+
   {
-    id: 3,
+    id: 4,
     titulo: 'Portfólio Pessoal',
     descricao: 'Portfólio desenvolvido em React com layout responsivo e mobile first.',
     tecnologias: ['React'],

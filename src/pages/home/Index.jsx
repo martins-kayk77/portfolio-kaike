@@ -7,11 +7,10 @@ function Index() {
       <section className="home" id="home">
       <div className="home-content">
         <h1 id='name'>Kaike Martins</h1>
-        <h2>Desenvolvedor Front-end</h2>
+        <h2>Web Developer</h2>
 
         <p>
-          Técnico em Desenvolvimento de Sistemas, cursando ADS, com foco em
-          desenvolvimento front-end.
+          Técnico em Desenvolvimento de Sistemas e estudante de ADS, com foco em desenvolvimento web
         </p>
 
         <div className="home-buttons">
